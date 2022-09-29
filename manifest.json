@@ -1,0 +1,15 @@
+{
+
+    "manifest_version":3,
+    "name":"sketch any website",
+    "version":"0.01",
+    "description":"allows to sketch any website",
+    "content_scripts":[{
+        "matches":[
+           "<all_urls>"  
+        ],
+        "js":["libraries/p5.min.js","sketch.js"]
+        }]
+
+
+}
